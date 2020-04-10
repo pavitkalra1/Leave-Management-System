@@ -1198,7 +1198,7 @@ aside.left-panel:hover {
 }
 
 .right-panel .navbar-brand img {
-    max-width: 145px
+    max-width: 37px!important;
 }
 
 .right-panel .navbar-brand.hidden {

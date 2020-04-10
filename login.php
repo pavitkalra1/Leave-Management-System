@@ -42,11 +42,24 @@ if(isset($_POST['email']) && isset($_POST['password'])){
       <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
       <link rel="stylesheet" href="assets/css/style.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+   <style>
+   .container {
+      background-image: url("capture2.png"); 
+      height: 694px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  /* width:500px; */
+   }
+   </style>
+
    </head>
    <body class="bg-dark">
+      
       <div class="sufee-login d-flex align-content-center flex-wrap">
          <div class="container">
-            <div class="login-content">
+            
+            <div class="login-content" >
                <div class="login-form mt-150">
                   <form method="post">
                      <div class="form-group">
