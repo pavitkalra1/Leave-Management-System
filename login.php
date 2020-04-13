@@ -51,6 +51,12 @@ if(isset($_POST['email']) && isset($_POST['password'])){
   background-size: cover; 
   /* width:500px; */
    }
+  #heading {
+     text-align:center;
+     /* font-size:large; */
+     font-size: 50px;
+
+  }
    </style>
 
    </head>
@@ -58,7 +64,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
       
       <div class="sufee-login d-flex align-content-center flex-wrap">
          <div class="container">
-            
+            <h1 id="heading"><strong>LEAVE MANAGEMENT SYSTEM</strong></h1>
             <div class="login-content" >
                <div class="login-form mt-150">
                   <form method="post">
